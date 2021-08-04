@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #191f55;
+    background-image: linear-gradient(120deg, #040a25 0%, #0a418a 100%);
+}
+
+.avatar {
+    background-color: white;
+    height: 175px;
+    width: 175px;
+}
+
+.horizontal-line {
+    background-color: #040a25;
+    background-image: linear-gradient(120deg, #ffffff 0%, #0a418a 100%);
+    width: 100%;
+    height: .2px;
+}
