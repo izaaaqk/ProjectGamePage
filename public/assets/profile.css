@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
 }
+
 body {
     background-color: #191f55;
     background-image: linear-gradient(120deg, #040a25 0%, #0a418a 100%);
