@@ -1,0 +1,84 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"firstName": "Frederik",
+			"lastName": "Bruen",
+			"email": "Jamil.Collins46@yahoo.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/cboller1_128.jpg",
+			"password": "IZoxBkvHiNkxuAa"
+		},
+		{
+			"id": 2,
+			"firstName": "Loma",
+			"lastName": "Anderson",
+			"email": "Stephania_Mante46@yahoo.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/algunsanabria_128.jpg",
+			"password": "_jsURKC_YeI0VrP"
+		},
+		{
+			"id": 3,
+			"firstName": "Zachery",
+			"lastName": "Pfannerstill",
+			"email": "Elliott32@yahoo.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/victorerixon_128.jpg",
+			"password": "7tFdNyTlLeUL6cB"
+		},
+		{
+			"id": 4,
+			"firstName": "Unique",
+			"lastName": "Koch",
+			"email": "Isabella_Gutkowski6@gmail.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/eddiechen_128.jpg",
+			"password": "I_arB1wPwYwAciX"
+		},
+		{
+			"id": 5,
+			"firstName": "Ernestine",
+			"lastName": "Marquardt",
+			"email": "Jazmin_Hickle42@hotmail.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/darcystonge_128.jpg",
+			"password": "TaS0cnbilg2grAb"
+		},
+		{
+			"id": 6,
+			"firstName": "Lilian",
+			"lastName": "Dach",
+			"email": "Ellis_Halvorson@yahoo.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/maz_128.jpg",
+			"password": "_fara4GuoDid5s0"
+		},
+		{
+			"id": 7,
+			"firstName": "Chaya",
+			"lastName": "McDermott",
+			"email": "Erika.Marks88@hotmail.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/stan_128.jpg",
+			"password": "2IB5BsAG4f6IXSs"
+		},
+		{
+			"id": 8,
+			"firstName": "Liza",
+			"lastName": "Gibson",
+			"email": "Celia_Lebsack16@gmail.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/bighanddesign_128.jpg",
+			"password": "45geeKD9Rv1db47"
+		},
+		{
+			"id": 9,
+			"firstName": "Dixie",
+			"lastName": "Ondricka",
+			"email": "Floyd_Robel@yahoo.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/andresenfredrik_128.jpg",
+			"password": "0vb8yp1jftRRiHA"
+		},
+		{
+			"id": 10,
+			"firstName": "Logan",
+			"lastName": "Lowe",
+			"email": "Maryam_Dach@hotmail.com",
+			"avatar": "https://cdn.fakercloud.com/avatars/devankoshal_128.jpg",
+			"password": "my3S0EDNDJPBC7L"
+		}
+	]
+}

@@ -15,7 +15,11 @@ User.init (
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
+        firstName: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        lastName: {
             type: DataTypes.STRING,
             allowNull: false,
         },
@@ -34,6 +38,10 @@ User.init (
                 len: [8],
             },
         },
+        avatar: {
+            type: DataTypes.STRING,
+            allowNull: true,
+        }
     },
     {
         hooks: {
