@@ -7,6 +7,10 @@ body {
     background-image: linear-gradient(120deg, #040a25 0%, #0a418a 100%);
 }
 
+.main {
+    display: flex;
+}
+
 .avatar {
     background-color: white;
     height: 175px;
@@ -18,4 +22,11 @@ body {
     background-image: linear-gradient(120deg, #ffffff 0%, #0a418a 100%);
     width: 100%;
     height: .2px;
+}
+
+.component {
+    height: 50px;
+    width: 345px;
+    background-color: white;
+    margin-top: 10px;
 }
