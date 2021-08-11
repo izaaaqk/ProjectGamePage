@@ -2,41 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>User Profile</title>
-    <link rel="stylesheet" href="..\public\assets\profile.css" />
+    <title>Glass Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/profile.css" />
   </head>
   <body>
-    <div class="main">
-      <div class="left-section">
-        <div class="avatar">
-          <p style="position: absolute;">Avatar will be here</p>
+    <main>
+      <section class="glass">
+        <div class="dashboard">
+          <div class="user profile-heading" >
+            <h2 >User Profile</h2>
+          </div>
+          <div class="user">
+            <img src="../image/avatar.png" alt="" />
+            <h3>Subash Sunuwar</h3>
+            <p>Pro Member</p>
+          </div>
+          <div class="links">
+            <div class="link">
+              <h2>Trophies</h2>
+            </div>
+            <div class="link">
+              <h2>Now Playing</h2>
+            </div>
+            <div class="link">
+              <h2>Recent Activity</h2>
+            </div>
+            <div class="link">
+              <h2>About</h2>
+            </div>
+            <div class="link">
+              <h2>Friends</h2>
+            </div>
+          </div>
         </div>
-        <button type="submit">💬</button>
-        <button type="reset">🎧</button>
-        <button type="submit">More</button>
-      </div>
-      <div class="links">
-        <a href="#">Trophies</a>
-        <a href="#">Now Playing</a>
-        <a href="#">Recent Activity</a>
-        <a href="#">About</a>
-        <a href="#">Friends</a>
-      </div>
-      <div class="right-section">
-        <h3 style="color:white">Username00</h3>
-        <div class="trophies component">Trophies 🏆🏆🎖🏆🥈🥉🏅🎖🏆</div>
-        <div class="now-playing component"><p>Now Playing</p></div>
-        <div class="recent-activity component"><p>recent activity</p></div>
-        <div class="about component"></div>
-        <div class="friends component"></div>
-      </div>
-    </div>
-    <div class="horizontal-line"></div>
-    <ul>
-      <button type="submit">Back</button>
-    </ul>
+        <div class="games">
+          <div class="recent-game">
+            <h1>Recent Games</h1>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="../image/Hangman.png" style="width: 105px; height: 105px; border-radius: 2rem;" alt="" />
+              <div class="card-info">
+                <h2>Hangman</h2>
+                <p>Hangman version 1.0</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">22%</h2>
+            </div>
+            <div class="card">
+              <img src="../image/tic-tac-toe.png" style="width: 105px; height: 105px; border-radius: 2rem;" alt="" />
+              <div class="card-info">
+                <h2>Tic - Tac - Toe</h2>
+                <p>Tic - Tac - Toe Version 1.2</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">22%</h2>
+            </div>
+            <div class="card">
+              <img src="../image/car-race.png" style="width: 105px; height: 105px; border-radius: 2rem;" alt="" />
+              <div class="card-info">
+                <h2>Car Race</h2>
+                <p>Car Race Version 5.4</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">22%</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
-
 </html>
