@@ -1,158 +1,156 @@
 /* Resetting the default CSS */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Heading */
-  .profile-heading {
-    
-    width: 100%;
-    height: 100%;
-    border-radius: 2rem 2rem 0 0;
-    font-size: 2.4rem;
-    color: #426696;
-    padding-top: 1rem;
-  }
-  
-  h1 {
-    color: #426696;
-    font-weight: 600;
-    font-size: 3rem;
-    opacity: 0.8;
-  }
-  
-  h2,
-  p {
-    color: #061b3a;
-    font-weight: 500;
-    opacity: 0.8;
-  }
-  
-  h3 {
-    color: #0b2649;
-    font-weight: 600;
-    opacity: 0.8;
-  }
-  
-  /* Main section of the page */
-  main {
-    font-family: sans-serif;
-    min-height: 100vh;
-    background: linear-gradient(to right top, #011f1b, #020202);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .glass {
-    background: rgb(102, 93, 93);
-    min-height: 80vh;
-    width: 60%;
-    background: linear-gradient(
-      to right bottom,
-      rgba(36, 35, 35, 0.7),
-      rgba(255, 255, 255, 0.3)
-    );
-    border-radius: 2rem;
-    z-index: 2;
-    backdrop-filter: blur(2rem);
-    display: flex;
-  }
-  
-  .dashboard {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    background: linear-gradient(
-      to right bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.3)
-    );
-    border-radius: 2rem;
-  }
-  
-  .link {
-    display: flex;
-    margin: 2rem 0rem;
-    padding: 1rem 5rem;
-    align-items: center;
-  }
-  
-  .link h2 {
-    padding: 0rem 2rem;
-  }
-  
-  .games {
-    flex: 2;
-    margin: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  
-  .recent-game {
-    margin-bottom: 3rem;
-  }
-  
-  .recent-game input {
-    background: linear-gradient(
-      to right bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.3)
-    );
-    border: none;
-    width: 50%;
-    padding: 0.5rem;
-    border-radius: 2rem;
-  }
-  
-  .card {
-    display: flex;
-    background: linear-gradient(
-      to left top,
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.5)
-    );
-    border-radius: 1rem;
-    margin: 2rem 0rem;
-    padding: 2rem;
-    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-    justify-content: space-between;
-  }
-  
-  .progress {
-    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-    width: 100%;
-    height: 25%;
-    border-radius: 1rem;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .progress::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: rgb(236, 236, 236);
-    position: absolute;
-    left: 60%;
-  }
-  
-  .card-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .percentage {
-    font-weight: bold;
-    background: linear-gradient(to right top, #126959, #0a5e6b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.profile-heading {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem 2rem 0 0;
+  font-size: 2.4rem;
+  color: #426696;
+  padding-top: 1rem;
+}
+
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+h2,
+p {
+  color: #061b3a;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+  color: #0b2649;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+/* Main section of the page */
+main {
+  font-family: sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #011f1b, #020202);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: rgb(102, 93, 93);
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(36, 35, 35, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+  display: flex;
+}
+
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+
+.link {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+
+.link h2 {
+  padding: 0rem 2rem;
+}
+
+.games {
+  flex: 2;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.recent-game {
+  margin-bottom: 3rem;
+}
+
+.recent-game input {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: none;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+
+.card {
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  justify-content: space-between;
+}
+
+.progress {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  width: 100%;
+  height: 25%;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(236, 236, 236);
+  position: absolute;
+  left: 60%;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.percentage {
+  font-weight: bold;
+  background: linear-gradient(to right top, #126959, #0a5e6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
