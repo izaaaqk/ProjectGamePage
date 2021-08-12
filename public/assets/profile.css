@@ -39,24 +39,22 @@ h3 {
 main {
   font-family: sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right top, #011f1b, #020202);
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.glass {
+.layer {
   background: rgb(102, 93, 93);
-  min-height: 80vh;
-  width: 60%;
+  min-height: 100vh;
+  width: 80%;
   background: linear-gradient(
     to right bottom,
     rgba(36, 35, 35, 0.7),
     rgba(255, 255, 255, 0.3)
   );
   border-radius: 2rem;
-  z-index: 2;
-  backdrop-filter: blur(2rem);
   display: flex;
 }
 
@@ -77,37 +75,17 @@ main {
 
 .link {
   display: flex;
-  margin: 2rem 0rem;
-  padding: 1rem 5rem;
+  margin: 0rem 0rem;
+  padding: 1rem 1rem;
   align-items: center;
-}
-
-.link h2 {
-  padding: 0rem 2rem;
 }
 
 .games {
   flex: 2;
-  margin: 5rem;
+  margin: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-.recent-game {
-  margin-bottom: 3rem;
-}
-
-.recent-game input {
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border: none;
-  width: 50%;
-  padding: 0.5rem;
-  border-radius: 2rem;
 }
 
 .card {
@@ -153,4 +131,12 @@ main {
   background: linear-gradient(to right top, #126959, #0a5e6b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {  
+  .profile-heading {
+    font-size: 2.4rem;
+    color: #426696;
+    padding-top: 1rem;
+  }
 }
