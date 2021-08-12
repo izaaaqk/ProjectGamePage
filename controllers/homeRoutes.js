@@ -3,12 +3,17 @@ const User = require('../models/User');
 
 router.get('/', async (req,res) => {
  try{
-      const users = await User.findAll ({});
-      res.json(users);
+      const usersData = await User.findAll ({});
+      const users = usersData.map(user => user.get({ plain: true }));
+     console.log(users);
+      // res.json(users);
+     res.render('homepage', {
+         users
+     });
     } catch (e) {
       res.status(400).json(e);
  }
-    // res.render('homepage')
+
 });
 
 module.exports = router;
