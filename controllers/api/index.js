@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { User } = require('../../models');
 
 router.post('/users', async (req, res) => {
+    console.log('Hittme!!', req.body);
     try {
         const newUser = User.create({
             firstName: req.body.firstName,
@@ -10,8 +11,8 @@ router.post('/users', async (req, res) => {
             password: req.body.password,
             avatar: req.body.avatar,
         });
-        if (newUSer) {
-            return res.redirect('/');
+        if (newUser) {
+            return res.status(200).json({ susccses: true});
         }
         res.json(401).json({ message: 'No user was created' });
     } catch (e) {
