@@ -1,2 +1,5 @@
 node_modules/
 .idea
+venv/
+public/__pycache__/
+game/
