@@ -1,6 +1,6 @@
 const {Model, DataTypes} = require('sequelize');
 const bcrypt = require('bcrypt');
-//const sequelize = require('../config/connection');
+const sequelize = require('../config/connection');
 
 /* class User extends Model {
     checkPassword(loginPw) {
@@ -63,7 +63,7 @@ module.exports = User; */
 var Sequelize = require('sequelize');
 //var bcrypt = require('bcrypt');
 
-const sequelize = new Sequelize('gamepage_db', 'root', 'password', {
+/*const sequelize = new Sequelize('gamepage_db', 'root', 'password', {
     host: 'localhost',
     port: 3001,
     dialect: "mysql",
@@ -74,7 +74,7 @@ const sequelize = new Sequelize('gamepage_db', 'root', 'password', {
         idle: 10000
     },
    // operatorsAliases: false
-});
+});*/
 
 //set up user table
 var User = sequelize.define('users', {
