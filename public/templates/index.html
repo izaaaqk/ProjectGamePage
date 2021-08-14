@@ -49,9 +49,13 @@
             <h1>{{ count }} </h1>
         </div>>
         <div>
+            <img id="gameimage" src="{{ url_for('static', filename = hangmanImg) }}" onerror="this.src='/static/img/hangman0.jpg'" class="img-fluid" alt="image of game">
+            <p id="imageDesc">Click the image to start gaming!</p>
+        </div> 
+        <!-- <div>
             <img id="gameimage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.lifehack.org%2Fwp-content%2Fuploads%2F2016%2F06%2F26073149%2Fmaxresdefault-1.jpg&f=1&nofb=1" class="img-fluid" alt="image of game">
             <p id="imageDesc">Click the image to start gaming!</p>
-        </div>
+        </div> -->
 
 <body>
     <footer>Game Page Created By Isaac, Subash, Jack, and Chase</footer>

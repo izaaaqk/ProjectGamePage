@@ -22,7 +22,7 @@ def dashes(word):
 dashWord = dashes(correctWord)
 
 #total number of guesses
-guesses = 7
+guesses = 6
 
 #initalize count to zero
 count = 0
@@ -53,7 +53,8 @@ def my_form_post():
         if inputGuess not in correctWord:
             count+=1
             message = "Incorrect Guess"
-            return render_template("index.html", message=message, word ="Word: " +str(dashWord), count = "Guesses Remaining: " + str(guesses-count))
+            hangmanImg = imagePicker(count)
+            return render_template("index.html", message=message, word ="Word: " +str(dashWord), count = "Guesses Remaining: " + str(guesses-count), hangmanImg = hangmanImg)
 
 #if letter is correct adds letter to dashes
         else:
@@ -66,9 +67,10 @@ def my_form_post():
                 count = 0
                 randomint = random.randint(0,5)
                 correctWord = words[randomint]
-                dashWord = dashes(correctWord)
+                dashWord = dashes(correctWord)                
                 return render_template("highscore.html", score = "Score: " +str(round(len(correctWord)/winCount*100,2)), message = "You Won")
-            return render_template("index.html", message=message, guess="You Guessed " +inputGuess, word ="Word: " +str(dashWord), count = "Guesses Remaining: " + str(guesses-count))
+            hangmanImg = imagePicker(count)    
+            return render_template("index.html", message=message, guess="You Guessed " +inputGuess, word ="Word: " +str(dashWord), count = "Guesses Remaining: " + str(guesses-count), hangmanImg = hangmanImg)
 
 #if count is not less then guesses you loose and navigate highscore.html
     else:
@@ -127,7 +129,19 @@ def addCorrectLetter(dashWord, correctWord, inputGuess):
     return dashWord
 
 
-
+def imagePicker(count):
+    switcher = {
+        0: r"img/hangman0.jpg",
+        1: r"img/hangman1.jpg",
+        2: r"img/hangman2.jpg",
+        3: r"img/hangman3.jpg",
+        4: r"img/hangman4.jpg",
+        5: r"img/hangman5.jpg",
+        6: r"img/hangman6.jpg"
+    }
+    image = switcher.get(count, r"img/hangman0.jpg")
+    return image
+    
 
     
 
